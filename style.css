@@ -49,3 +49,22 @@ form input.equal{
 form input.operator{
     color: #33ffd8;
 }
+
+
+@media screen and (max-width: 400px) {
+    .calculator{
+        border: 2px solid green;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        height: 70vh;
+        width: 95vw;
+    }
+    .calculator form input{
+        margin: 0px ;
+        margin-top: 6px ;
+        height: 9vh;
+        width: 17vw;
+    }
+}
