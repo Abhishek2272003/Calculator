@@ -67,4 +67,7 @@ form input.operator{
         height: 9vh;
         width: 17vw;
     }
+    form input.equal{
+        width: 130px;
+    }
 }
